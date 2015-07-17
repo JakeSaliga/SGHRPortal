@@ -1,0 +1,10 @@
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\SGCorpHR.DATA.dll
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\SGCorpHR.DATA.pdb
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\SGCorpHR.Models.dll
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\SGCorpHR.Models.pdb
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\obj\Debug\SGCorpHR.DATA.csprojResolveAssemblyReference.cache
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\obj\Debug\SGCorpHR.DATA.dll
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\obj\Debug\SGCorpHR.DATA.pdb
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\Dapper.dll
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\Dapper.pdb
+C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.DATA\bin\Debug\Dapper.xml

@@ -1,0 +1,31 @@
+﻿@model SGCorpHR.Models.Response<SGCorpHR.Models.TimeTrackerSummary>
+@{
+    ViewBag.Title = "SelectedEmployeeSummary";
+}
+  <h2>TimeTrackerSummary</h2>
+
+<div>
+    <h3>Summary Box</h3>
+    @Html.HiddenFor(m => m.Data.SelectedEmployee.EmpID, Model.Data.SelectedEmployee.EmpID)
+    <label>Employee ID</label>
+    <p>@Model.Data.SelectedEmployee.EmpID</p> <br/>
+
+    <label>Employee Name</label>
+    <p>@Model.Data.SelectedEmployee.FirstName @Model.Data.SelectedEmployee.LastName</p> <br/>
+
+    <label>Employee Hire Date</label>
+    <p>@Model.Data.SelectedEmployee.HireDate</p> <br/>
+
+    <label>Total Hours To Date</label>
+    <p>@Model.Data.TotalHoursWorked</p> <br/>
+</div>
+
+<div>
+    @foreach (var ts in Model.Data.AllTimesheets)
+    {
+        <p>@ts.DateOfTimesheet      @ts.TotalHoursByDay</p>
+
+    }
+
+</div>
+
