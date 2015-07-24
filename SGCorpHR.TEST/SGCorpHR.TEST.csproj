@@ -44,9 +44,12 @@
   <ItemGroup>
     <Compile Include="FileOperationsTest.cs" />
     <Compile Include="FileRepositoryTest.cs" />
+    <Compile Include="PaidTimeOffOperationsTests.cs" />
+    <Compile Include="PaidTimeOffRepositoryTests.cs" />
     <Compile Include="PolicyDocumentsOperationsTest.cs" />
     <Compile Include="PolicyDocumentsRepoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuggestionOperationsTests.cs" />
     <Compile Include="SuggestionRepositoryTest.cs" />
     <Compile Include="TimeTrackerOpsTest.cs" />
     <Compile Include="TimeTrackerRepoTest.cs" />

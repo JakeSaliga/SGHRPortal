@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,6 +42,9 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Interfaces\IPaidTimeOffRepository.cs" />
+    <Compile Include="Interfaces\ISuggestionRepository.cs" />
+    <Compile Include="PaidTimeOff.cs" />
     <Compile Include="PolicyDocument.cs" />
     <Compile Include="Resumes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

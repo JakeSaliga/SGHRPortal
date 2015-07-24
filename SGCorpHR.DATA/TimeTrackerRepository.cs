@@ -41,5 +41,37 @@ namespace SGCorpHR.DATA
             }
         }
 
+        public int TotalHoursWorked(int employeeId)
+        {
+            using (var cn = new SqlConnection(Settings.ConnectionString))
+            {
+                var p = new DynamicParameters();
+                p.Add("employeeID", employeeId);
+
+                return cn.Query<int>("TotalHoursWorked", p, commandType: CommandType.StoredProcedure).FirstOrDefault();
+            }
+        }
+
+        public void DeleteTimesheet(int empTimesheetId)
+        {
+            using (var cn = new SqlConnection(Settings.ConnectionString))
+            {
+                cn.Query("DELETE Timesheet Where TimesheetId = @timesheetId", new {timesheetId = empTimesheetId});
+            }
+        }
+
+        public void SubmitNewTimeSheet(Timesheet timesheet)
+        {
+            using (var cn = new SqlConnection(Settings.ConnectionString))
+            {
+                var p = new DynamicParameters();
+                p.Add("dateOfSheet", timesheet.DateOfTimesheet);
+                p.Add("totalHrsThatDay", timesheet.TotalHoursByDay);
+                p.Add("empId", timesheet.EmpId);
+
+                cn.Query("SubmitNewTimeSheet", p, commandType: CommandType.StoredProcedure);
+            }
+        }
+
     }
 }

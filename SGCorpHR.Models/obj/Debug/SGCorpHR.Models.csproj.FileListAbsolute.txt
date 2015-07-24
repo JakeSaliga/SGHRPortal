@@ -1,3 +1,8 @@
+C:\GitHub\KileyDowling\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\bin\Debug\SGCorpHR.Models.dll
+C:\GitHub\KileyDowling\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\bin\Debug\SGCorpHR.Models.pdb
+C:\GitHub\KileyDowling\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\obj\Debug\SGCorpHR.Models.csprojResolveAssemblyReference.cache
+C:\GitHub\KileyDowling\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\obj\Debug\SGCorpHR.Models.dll
+C:\GitHub\KileyDowling\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\obj\Debug\SGCorpHR.Models.pdb
 C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\bin\Debug\SGCorpHR.Models.dll
 C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\bin\Debug\SGCorpHR.Models.pdb
 C:\GitHub\JacobSaliga\SGCorpHRV2\SGCorpHR\SGCorpHR.Models\obj\Debug\SGCorpHR.Models.csprojResolveAssemblyReference.cache

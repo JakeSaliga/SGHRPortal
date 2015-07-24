@@ -24,12 +24,18 @@ namespace SGCorpHR.BLL
                     response.Data = new TimeTrackerSummary()
                     {
                        SelectedEmployee = repo.GetSingleEmployee(empId),
+                       TotalHoursWorked = repo.TotalHoursWorked(empId),
                         AllTimesheets = listOfTimesheets
                     };
                 }
 
                 else
                 {
+                    response.Data = new TimeTrackerSummary()
+                    {
+                        SelectedEmployee = repo.GetSingleEmployee(empId),
+                    };
+                    
                     response.Success = false;
                     response.Message = "There were no timesheets found for that employee";
                 }
@@ -69,6 +75,18 @@ namespace SGCorpHR.BLL
                 response.Message = ex.Message;
             }
             return response;
+        }
+
+        public void DeleteSingleTimesheet(int timesheetId)
+        {
+            TimeTrackerRepository repo = new TimeTrackerRepository();
+            repo.DeleteTimesheet(timesheetId);
+        }
+
+        public void SubmitTimeSheet(Timesheet timesheet)
+        {
+            TimeTrackerRepository repo = new TimeTrackerRepository();
+            repo.SubmitNewTimeSheet(timesheet);
         }
     }
 
